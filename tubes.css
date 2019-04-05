@@ -1,14 +1,14 @@
 .row{
-	background-image: url(blue.png);
-	height: 400px;
-	position: relative;
+	height: 768px; 
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.satu{
-
+body {
+	 font-family: sans-serif; text-align: center;
 }
-.satu:hover {
-	background-image: url(green.png);
-
-
+/*
+.teks{
+	text-align: left; margin-left: 72px; margin-top: 80px;
 }
+*/
