@@ -1,0 +1,14 @@
+.row{
+	background-image: url(blue.png);
+	height: 400px;
+	position: relative;
+}
+
+.satu{
+
+}
+.satu:hover {
+	background-image: url(green.png);
+
+
+}
