@@ -12,6 +12,13 @@
 	<link rel="stylesheet" type="text/css" href="tubes.css">
 	<script type="text/javascript" src="nav.js"></script>
 	<script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript">
+    function year(){
+      var d = new Date();
+      var n = d.getFullYear();
+      document.getElementById("year").innerHTML = n;
+    }
+  </script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-left">
@@ -177,9 +184,12 @@
 
             </div>
           	<div class="media-right col-md-3 height-full" style="background-color: green;">
-              <h2 style="margin-left: 20px;">tes</h2>
-              <div class="-col-md-12 margtop50desktop"><div class="menu-date"><span>Year</span><div class="the-date-menu">2019</div><div class="col-xs-6" style="padding-right:10px"><span>Month</span><div class="the-date-menu">Apr</div></div><div class="col-xs-6" style="padding-left:10px"><span>Date</span><div class="the-date-menu">10</div></div><div class="col-xs-12 nopadding"><span>Day</span><div class="the-date-menu">Wed</div></div><div class="col-xs-12 nopadding margtop100desktop"><div style="font-weight:bold" class="the-date-menu"><a href="/en/login">LOGIN</a></div></div></div></div>
-            
+              <div>
+                <h6>Year</h6>
+                <hr>
+                <h6 id="year" onload="year()"></h6>
+                <!-- <div class="menu-date"><span>Year</span><div class="the-date-menu">2019</div><div class="col-xs-6" style="padding-right:10px"><span>Month</span><div class="the-date-menu">Apr</div></div><div class="col-xs-6" style="padding-left:10px"><span>Date</span><div class="the-date-menu">12</div></div><div class="col-xs-12 nopadding"><span>Day</span><div class="the-date-menu">Fri</div></div><div class="col-xs-12 nopadding margtop100desktop"><div style="font-weight:bold" class="the-date-menu"><a href="/en/login">LOGIN</a></div></div></div> -->
+              </div>
         	</div>
         </div>	
 		</div>
