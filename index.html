@@ -13,11 +13,29 @@
 	<script type="text/javascript" src="nav.js"></script>
 	<script type="text/javascript" src="index.js"></script>
   <script type="text/javascript">
-    function year(){
-      var d = new Date();
-      var n = d.getFullYear();
-      document.getElementById("year").innerHTML = n;
+    function month(id){
+      date = new Date;
+      month = date.getMonth();
+      months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+      result = ''+months[month];
+      document.getElementById(id).innerHTML = result;
     }
+    function datee(id){
+      date = new Date;
+      d = date.getDate();  
+      result = ''+d;
+      document.getElementById(id).innerHTML = result;
+    }
+    function day(id){
+      date = new Date;
+      day = date.getDay();
+      days = new Array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
+      result = ''+days[day];
+      document.getElementById(id).innerHTML = result;
+    }
+  </script>
+  <script type="text/javascript">
+    
   </script>
 </head>
 <body>
@@ -82,14 +100,14 @@
 	  	</div>
 	</div>
 
-<div class="modal fade left bd-example-modal-lg bg-dark col-md-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="">
-  	<div class="modal-dialog">
-    <div class="modal-content bg-dark" style="border: none; height: 580px; margin-left: -80px; margin-top: 48px;">
-    	<div class="modal-body">
+<div class="modal fade left bd-example-modal-lg bg-dark col-md-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  	<div class="modal-dialog" style="height: 600px;">
+    <div class="modal-content bg-dark" style="border: none; height: 656px; width: 672px; margin-left: -80px; margin-top: -28px;">
+    	<div class="modal-body" style="height: 656px;">
         <div class="media">
           	<div class="media-left" style="width: 288px;">
             	<ul class="mainmenu" style="text-align: left;">
-        			<li class="dropdown">
+        			<li class="dropdown" style="margin-top: 60px;">
           				<a href="#" class="dropdown-link">Male</a>
           				<ul class="submenu">
             				<li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
@@ -122,10 +140,10 @@
           				</ul>
         			</li>
       			</ul>
-            <hr style="border-color: white; margin-top: 60px;">
+            <hr style="border-color: white; margin-top: 60px; width: 288px; margin-right: -100px;">
             <ul class="mainmenu" style="text-align: left;">
               <li class="dropdown">
-                  <a href="#" class="dropdown-link">About Us</a>
+                  <a href="#" class="dropdown-link" style="margin-top: -16px;">About Us</a>
                   <ul class="submenu">
                     <li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">History</a></li>
                     <li><a href="family.html" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Family</a></li>
@@ -157,7 +175,7 @@
               </li>
             </ul>
            <!--  <hr style="border-color: white; margin-top: 60px;"> -->
-            <footer style="border-top:1px solid #fff; margin-top:300px; width: 288px; position: absolute; bottom: 0;">
+            <footer style="border-top:1px solid #fff; margin-top:300px; width: 288px; position: absolute; bottom: 0; margin-bottom: 16px;">
               <ul style="text-decoration: none; list-style: none; text-align: left; margin: 16px;">
                 <li style="display: inline; margin-left:-30px; margin-right: 12px;">
                   <a href="https://www.facebook.com/ouvalresearch"> 
@@ -183,12 +201,30 @@
             </footer>
 
             </div>
-          	<div class="media-right col-md-3 height-full" style="background-color: green;">
-              <div>
-                <h6>Year</h6>
-                <hr>
-                <h6 id="year" onload="year()"></h6>
-                <!-- <div class="menu-date"><span>Year</span><div class="the-date-menu">2019</div><div class="col-xs-6" style="padding-right:10px"><span>Month</span><div class="the-date-menu">Apr</div></div><div class="col-xs-6" style="padding-left:10px"><span>Date</span><div class="the-date-menu">12</div></div><div class="col-xs-12 nopadding"><span>Day</span><div class="the-date-menu">Fri</div></div><div class="col-xs-12 nopadding margtop100desktop"><div style="font-weight:bold" class="the-date-menu"><a href="/en/login">LOGIN</a></div></div></div> -->
+          	<div class="media-right" style="background-color:#00FF00; margin-left: 120px; width: 480px; height: 656px; margin-top: -16px; margin-right: -16px; text-align: left;">
+              <div style="margin-left: 16px;">
+                <h6 style="margin-top: 60px; border-bottom: 1px solid #000; width: 300px; font-size: 14px; padding-bottom: 4px;">Year</h6>
+                <p style=" font-size: 36px; margin-top: -8px;">
+                  <script>document.write(new Date().getFullYear())</script>
+                </p>
+                <div style="">
+                  <div>
+                    <h6 style="border-bottom: 1px solid #000; width: 130px; font-size: 14px; padding-bottom: 4px;">Month</h6>
+                    <p id="month" style="font-size: 36px; margin-top: -8px;">
+                      <script type="text/javascript">window.onload = month('month');</script>
+                    </p>
+                  </div>
+                  <div>
+                    <h6 style="border-bottom: 1px solid #000; width: 130px; font-size: 14px; padding-bottom: 4px;">Date</h6>
+                    <p id="datee" style="font-size: 36px; margin-top: -8px;">
+                      <script type="text/javascript">window.onload = datee('datee');</script>
+                    </p>
+                  </div>
+                </div>
+                <h6 style="margin-top: 60px; border-bottom: 1px solid #000; width: 300px; font-size: 14px; padding-bottom: 4px;">Day</h6>
+                <p id="day" style=" font-size: 36px; margin-top: -8px;">
+                   <script type="text/javascript">window.onload = day('day');</script>
+                </p>
               </div>
         	</div>
         </div>	
