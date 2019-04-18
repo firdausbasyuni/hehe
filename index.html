@@ -34,9 +34,6 @@
       document.getElementById(id).innerHTML = result;
     }
   </script>
-  <script type="text/javascript">
-    
-  </script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-left">
@@ -174,7 +171,6 @@
                   </ul>
               </li>
             </ul>
-           <!--  <hr style="border-color: white; margin-top: 60px;"> -->
             <footer style="border-top:1px solid #fff; margin-top:300px; width: 288px; position: absolute; bottom: 0; margin-bottom: 16px;">
               <ul style="text-decoration: none; list-style: none; text-align: left; margin: 16px;">
                 <li style="display: inline; margin-left:-30px; margin-right: 12px;">
@@ -207,26 +203,26 @@
                 <p style=" font-size: 36px; margin-top: -8px;">
                   <script>document.write(new Date().getFullYear())</script>
                 </p>
-                <div style="width: 300px;">
-                  <div style="width: 130px; height: 75px;">
+                <div class="container" style="margin-left: -16px; float: left; margin-bottom: 12px;">
+                  <div style="width: 130px; height: 75px; width: 130px; float: left; padding-right: -12px;">
                     <h6 style="border-bottom: 1px solid #000; font-size: 14px; padding-bottom: 4px;">Month</h6>
                     <p id="month" style="font-size: 36px; margin-top: -8px;">
                       <script type="text/javascript">window.onload = month('month');</script>
                     </p>
                   </div>
-                  <div style="width: 130px; height: 75px;">
-                    <h6 style="border-bottom: 1px solid #000; font-size: 14px; padding-bottom: 4px; width: 130px;">Date</h6>
+                  <div style="width: 140px; height: 75px; float: right; margin-left: 10px;">
+                    <h6 style="border-bottom: 1px solid #000; font-size: 14px; padding-bottom: 4px; width: 150px;">Date</h6>
                     <p id="datee" style="font-size: 36px; margin-top: -8px;">
                       <script type="text/javascript">window.onload = datee('datee');</script>
                     </p>
                   </div>
                 </div>
-                <h6 style="margin-top: 60px; border-bottom: 1px solid #000; width: 300px; font-size: 14px; padding-bottom: 4px; margin-top: 0px;">Day</h6>
+                <h6 style="margin-top: 0px; border-bottom: 1px solid #000; width: 300px; font-size: 14px; padding-bottom: 4px;">Day</h6>
                 <p id="day" style=" font-size: 36px; margin-top: -8px;">
                    <script type="text/javascript">window.onload = day('day');</script>
                 </p>
-                <div style="width: 250px;">
-                <a href="login.html" style="font-size: 36px; text-decoration: none; color: #000;border-top: 1px solid #000;">LOGIN</a>
+                <div style="width: 300px; margin-top: 80px;border-top: 1px solid #000;">
+                <a href="login.html" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
                 </div>
               </div>
                 
@@ -237,5 +233,4 @@
 	</div>
 </div>
 </body>
-
 </html>
