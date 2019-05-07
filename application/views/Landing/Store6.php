@@ -80,68 +80,68 @@
             	<ul class="mainmenu" style="text-align: left;">
         			<li class="dropdown" style="margin-top: 60px;">
           				<a href="#" class="dropdown-link">Male</a>
-          				<ul class="submenu">
-            				<li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-            				<li><a href="family.html" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-            				<li><a href="download.html" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
-          				</ul>
-        			</li>
-        			<li class="dropdown">
-          				<a href="#" class="dropdown-link">Female</a>
-          				<ul class="submenu">
-		            		<li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-            				<li><a href="family.html" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-            				<li><a href="download.html" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
-          				</ul>
-        			</li>
-        			<li class="dropdown">
-          				<a href="#" class="dropdown-link">Kids</a>
-          				<ul class="submenu">
-            				<li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-            				<li><a href="family.html" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-            				<li><a href="download.html" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
-          				</ul>
-        			</li>
-        			<li class="dropdown">
-          				<a href="#" class="dropdown-link">Toddler</a>
-          				<ul class="submenu">
-            				<li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-            				<li><a href="family.html" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-            				<li><a href="download.html" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
-          				</ul>
-        			</li>
-      			</ul>
+                  <ul class="submenu">
+                    <li><a href="<?php echo site_url('c_male');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-link">Female</a>
+                  <ul class="submenu">
+                    <li><a href="<?php echo site_url('c_female');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-link">Kids</a>
+                  <ul class="submenu">
+                    <li><a href="#" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-link">Toddler</a>
+                  <ul class="submenu">
+                    <li><a href="#" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                  </ul>
+              </li>
+            </ul>
             <hr style="border-color: white; margin-top: 60px; width: 288px; margin-right: -100px;">
             <ul class="mainmenu" style="text-align: left;">
               <li class="dropdown">
                   <a href="#" class="dropdown-link" style="margin-top: -16px;">About Us</a>
                   <ul class="submenu">
-                    <li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">History</a></li>
-                    <li><a href="family.html" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Family</a></li>
-                    <li><a href="download.html" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Download</a></li>
-                    <li><a href="career.html" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Career</a></li>
+                    <li><a href="<?php echo site_url('c_history');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">History</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Family</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Download</a></li>
+                    <li><a href="<?php echo site_url('c_career');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Career</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Campaign</a>
                   <ul class="submenu">
-                    <li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">News</a></li>
-                    <li><a href="" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Project</a></li>
+                    <li><a href="<?php echo site_url('c_news');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">News</a></li>
+                    <li><a href="#" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Project</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Find Us</a>
                   <ul class="submenu">
-                    <li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Store</a></li>
-                    <li><a href="" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Distribution</a></li>
+                    <li><a href="<?php echo site_url('c_store');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Store</a></li>
+                    <li><a href="#" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Distribution</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Customer Service</a>
                   <ul class="submenu">
-                    <li><a href="" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">FAQ</a></li>
-                    <li><a href="" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Clothing Care</a></li>
-                    <li><a href="" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Contact Us</a></li>
+                    <li><a href="#" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">FAQ</a></li>
+                    <li><a href="<?php echo site_url('c_care');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Clothing Care</a></li>
+                    <li><a href="<?php echo site_url('c_contact');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Contact Us</a></li>
                   </ul>
               </li>
             </ul>
@@ -196,7 +196,7 @@
                    <script type="text/javascript">window.onload = day('day');</script>
                 </p>
                 <div style="width: 300px; margin-top: 80px;border-top: 1px solid #000;">
-                <a href="login.html" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
+                <a href="<?php echo site_url('c_login');?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
                 </div>
               </div>
                 

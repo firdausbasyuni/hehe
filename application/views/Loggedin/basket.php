@@ -1,11 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Sch</title>
+<head>
+  <title>Sch</title>
   <link rel="icon" type="image/png" href="https://www.schofficial.com/favicon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha3124-MCw912/SFnGE12fJT3GXwEOngsV7Zt27NXFoaoApmYm121iuXoPkFOJwJ12ERdknLPMO" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha3124-q12i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+12abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -41,7 +37,7 @@
   </script>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-left">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-left">
     <a class="navbar-brand" href="index.html"><img src="https://www.schofficial.com/Content/frontend/img/logo.png" style="width: 72px; margin-bottom: 36px;"></a>
     <button class="navbar-toggler" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
         <span class="navbar-toggler-icon"></span>
@@ -66,8 +62,8 @@
           </li>
         </ul>
     </div>
-</nav>
-<div class="modal fade left bd-example-modal-lg bg-dark col-md-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  </nav>
+  <div class="modal fade left bd-example-modal-lg bg-dark col-md-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog" style="height: 600px;">
     <div class="modal-content bg-dark" style="border: none; height: 656px; width: 672px; margin-left: -80px; margin-top: -28px;">
       <div class="modal-body" style="height: 656px;">
@@ -77,33 +73,33 @@
               <li class="dropdown" style="margin-top: 60px;">
                   <a href="#" class="dropdown-link">Male</a>
                   <ul class="submenu">
-                    <li><a href="<?php echo site_url('c_male'); ?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-                    <li><a href="<?php echo site_url('c_family'); ?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-                    <li><a href="<?php echo site_url('c_download'); ?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                    <li><a href="<?php echo site_url('c_male');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Female</a>
                   <ul class="submenu">
-                    <li><a href="<?php echo site_url('c_female'); ?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-                    <li><a href="<?php echo site_url('c_family'); ?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-                    <li><a href="<?php echo site_url('c_download'); ?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                    <li><a href="<?php echo site_url('c_female');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Kids</a>
                   <ul class="submenu">
                     <li><a href="#" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-                    <li><a href="<?php echo site_url('c_family'); ?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-                    <li><a href="<?php echo site_url('c_download'); ?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Toddler</a>
                   <ul class="submenu">
                     <li><a href="#" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Shop</a></li>
-                    <li><a href="<?php echo site_url('c_family'); ?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
-                    <li><a href="<?php echo site_url('c_download'); ?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Fit Guide</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Lookbook</a></li>
                   </ul>
               </li>
             </ul>
@@ -112,32 +108,32 @@
               <li class="dropdown">
                   <a href="#" class="dropdown-link" style="margin-top: -16px;">About Us</a>
                   <ul class="submenu">
-                    <li><a href="<?php echo site_url('c_history'); ?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">History</a></li>
-                    <li><a href="<?php echo site_url('c_family'); ?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Family</a></li>
-                    <li><a href="<?php echo site_url('c_download'); ?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Download</a></li>
-                    <li><a href="<?php echo site_url('c_career'); ?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Career</a></li>
+                    <li><a href="<?php echo site_url('c_history');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">History</a></li>
+                    <li><a href="<?php echo site_url('c_family');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Family</a></li>
+                    <li><a href="<?php echo site_url('c_download');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Download</a></li>
+                    <li><a href="<?php echo site_url('c_career');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Career</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Campaign</a>
                   <ul class="submenu">
-                    <li><a href="<?php echo site_url('c_news'); ?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">News</a></li>
+                    <li><a href="<?php echo site_url('c_news');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">News</a></li>
                     <li><a href="#" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Project</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Find Us</a>
                   <ul class="submenu">
-                    <li><a href="<?php echo site_url('c_store'); ?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Store</a></li>
-                    <li><a href="<?php echo site_url('c_distribution'); ?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Distribution</a></li>
+                    <li><a href="<?php echo site_url('c_store');?>" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">Store</a></li>
+                    <li><a href="#" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Distribution</a></li>
                   </ul>
               </li>
               <li class="dropdown">
                   <a href="#" class="dropdown-link">Customer Service</a>
                   <ul class="submenu">
                     <li><a href="#" style="margin-left: 24px; margin-top: -20px; position: absolute; font-style: italic; color: grey;">FAQ</a></li>
-                    <li><a href="<?php echo site_url('c_care'); ?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Clothing Care</a></li>
-                    <li><a href="<?php echo site_url('c_contact'); ?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Contact Us</a></li>
+                    <li><a href="<?php echo site_url('c_care');?>" style="margin-left: 24px; margin-bottom: -20px; font-style: italic; color: grey;">Clothing Care</a></li>
+                    <li><a href="<?php echo site_url('c_contact');?>" style="margin-left: 24px; margin-bottom: 4px; font-style: italic; color: grey;">Contact Us</a></li>
                   </ul>
               </li>
             </ul>
@@ -165,7 +161,7 @@
                 </li>
               </ul>
             </footer>
-            </div>
+      </div>
             <div class="media-right" style="background-color:#00FF00; margin-left: 120px; width: 480px; height: 656px; margin-top: -16px; margin-right: -16px; text-align: left;">
               <div style="margin-left: 16px;">
                 <h6 style="margin-top: 60px; border-bottom: 1px solid #000; width: 300px; font-size: 14px; padding-bottom: 4px;">Year</h6>
@@ -191,7 +187,7 @@
                    <script type="text/javascript">window.onload = day('day');</script>
                 </p>
                 <div style="width: 300px; margin-top: 80px;border-top: 1px solid #000;">
-                <a href="<?php echo site_url('c_login'); ?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
+                <a href="<?php echo site_url('Landing');?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
                 </div>
               </div>
           </div>
@@ -200,58 +196,21 @@
   </div>
   </div>
 </div>
-<div class="row" style="background-color: #D3D3D3; height: ">
-    <h4 class="text-left font-weight-bold mr-2 ml-3">NEWS</h4>
-    <div class="row mx-auto">
-      <div class="card mr-2 ml-3" style="width: 18rem;">
-      <img src="https://schofficial.com/Content/frontend/img/campaign/winner-2k18.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">EoL 2018 Deals Winners List</h5>
-        <button type="button" class="btn btn-link">More Info</button>
-      </div>
+  <div class="row" style="background-color: #D3D3D3; height: ">
+  	<div class="container">
+  		<h2> BASKET </h2>
+  		<div class="col-md-12">
+  		<p> To start shopping,choose a shop below</p>
+  		<label style="color:#111">
+  		</label>
+  		</div>
+  	</div>
+  		<div class="row mx-auto">
+  		<button type="button" class="btn btn-outline-secondary">Shop Male</button>
+  		<button type="button" class="btn btn-outline-secondary">Shop Female</button>
+  		<button type="button" class="btn btn-outline-secondary">Shop Kids</button>
+  		<button type="button" class="btn btn-outline-secondary">Shop Toddler</button>
     </div>
-    <div class="card mr-2 ml-3" style="width: 18rem;">
-      <img src="https://schofficial.com/Content/frontend/img/campaign/eol2018.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">End Of League 2018</h5>
-        <button type="button" class="btn btn-link">More Info</button>
-      </div>
-    </div>
-    <div class="card mr-2 ml-3" style="width: 18rem;">
-      <img src="https://schofficial.com/Content/frontend/img/campaign/sch-21st-midnight-sale-web.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">MIDNIGHT SALE</h5>
-        <button type="button" class="btn btn-link">More Info</button>
-      </div>
-    </div><br>
-    <div class="card mr-2 ml-3" style="width: 18rem;">
-      <img src="https://schofficial.com/Content/frontend/img/campaign/harbolnas-sch-web.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">HARBOLNAS 2017</h5>
-        <button type="button" class="btn btn-link">More Info</button>
-      </div>
-    </div>
-    <div class="card mr-2 ml-3" style="width: 18rem;">
-      <img src="https://schofficial.com/Content/frontend/img/campaign/new-size-chart.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">NEW SIZE CHART</h5>
-        <button type="button" class="btn btn-link">More Info</button>
-      </div>
-    </div>
-    <div class="card mr-2 ml-3" style="width: 18rem;">
-      <img src="https://schofficial.com/Content/frontend/img/campaign/ramadhan-2018.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">VOUCHER 100K IDR</h5>
-        <button type="button" class="btn btn-link">More Info</button>
-      </div>
-    </div>
-    </div>
-</div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
   </body>
 </html>

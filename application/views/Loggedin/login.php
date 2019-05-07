@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="tubes.css">
 	<link rel="stylesheet" type="text/css" href="login.css">
 	<script type="text/javascript" src="nav.js"></script>
+	<script type="text/javascript" src="index.js"></script>
 	<script type="text/javascript">
 	    function month(id){
 	      	date = new Date;
@@ -196,7 +197,7 @@
                    <script type="text/javascript">window.onload = day('day');</script>
                 </p>
                 <div style="width: 300px; margin-top: 80px;border-top: 1px solid #000;">
-                <a href="<?php echo site_url('c_login');?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
+                <a href="<?php echo site_url('Landing'); ?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
                 </div>
               </div>
                 
@@ -206,47 +207,44 @@
 	</div>
 	</div>
 </div>
-<div class="row" style="background-color: #D3D3D3; height: ">
-   
+<div class="row" style="background-color: #D3D3D3;height: 656px;">
 
-        <div class="col-md-9">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://www.schofficial.com/Content/frontend/img/store/4.jpg?v=1" class="img-full" alt="First slide">
+	<div style="width: 1264px; margin-top: 80px; margin-left: 24px; margin-right: 12px; border-top: 1px solid #808080; background-color: #D3D3D3;" class="row">
+		<div class="col-md-3" style="height: 100%; border-right: 1px solid #808080;">
+			<form action="/action_page.php">
+				<div class="container">
+				    <input type="text" placeholder="Email" name="uname" required class="login">
+				    <input type="password" placeholder="Password" name="psw" required class="login">
+				    <div style="font-size: 12px; width: 260px; margin-left: -16px; margin-top: 8px;">
+					    <label>
+					      <input type="checkbox" name="remember" style="color: #666;"> Keep me logged in
+					    </label>
+					    <a href="#" class="psw" style="color: black; text-decoration: underline;">Forgot your password ?</a>
+					</div>
+    				<button type="submit" style="width: 280px; height: 40px;margin-left: -20px; background-color: #FF6600; cursor: pointer;color: white;border: none;" class="asd">LOG IN</button>
+				</div>
+			</form>
+		</div>
+    <div class="">
+      <h1 style="margin-left: 12px; cursor: pointer; position: absolute; font-weight: bold;" id="menu" onclick="toggleMenu()">SIGN UP<img src="https://www.schofficial.com/Content/frontend/img/arrow-signup.png" style="margin-left: 20px; width: 16px; height: 16px;"></h1>
+       <!--  <ul id="menu-box" style="display: block">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="animal.html">Animal</a></li>
+          <li><a href="pictures.html">Pictures</a></li>
+        </ul> -->
+        <div class="" id="menu-box">
+          <form action="/action_page.php">
+            <div class="container" style="width: 285px; margin-top: 48px; margin-left: 12px;">
+              <h6 style="margin-left: -140px; margin-bottom: -8px; color: #666; font-size: 14px; ">It's free and always be.</h6>
+              <input type="text" placeholder="Email" name="uname" required class="login">
+              <input type="password" placeholder="Password" name="psw" required class="login">
+              <input type="password" placeholder="Re-Password" name="psw-repeat" required class="login">
+              <button type="submit" style="width: 280px; height: 40px;margin-left: -20px; background-color: #D3D3D3; cursor: pointer;color: black; border: solid black; margin-top: 8px; font-weight: bold;">SIGN UP</button>
+            </div>
+          </form>
     </div>
-    <div class="carousel-item">
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="1300" height="800" id="gmap_canvas" src="https://maps.google.com/maps?q=sch%20buah&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"alt="Secon slide"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:800px;width:1300px;}.gmap_canvas {overflow:hidden;background:none!important;height:800px;width:1300px;}</style></div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+	</div>
+	
 </div>
-          <!-- <img src="https://www.schofficial.com/Content/frontend/img/store/2.jpg?v=1" class="img-full" style="height: 600px">
-        -->
-      </div>
-      <div class="col-md-3" style="color: black; text-align: left;">
-        <h1 style="margin-top: 80px; margin-right: 30px; margin-left: 40px; font-size: 25px;">Exhibition Room 4 Surabaya</h1>
-        <hr style="margin-left: 40px;">
-        
-        <div>
-          <h1 style="color: black; font-size: 17px; font-weight: bold; margin-left: 40px;">ADDRESS: </h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">Jl.Slamet no. 11 Surabaya</h1>
-          <h1 style="color: black; font-size: 17px; font-weight: bold; margin-left: 40px;">OPERATION :</h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">10.00-22.00</h1>
-          <h1 style="color: black; font-size: 17px; font-weight: bold;margin-left: 40px">PHONE :</h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">+6231.545.2209</h1>
-          <h1 style="color: black; font-size: 17px; font-weight: bold;margin-left: 40px">EMAIL :</h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">store@ouvalresearch.com</h1>
-        </div>
-      </div>
-</div>
-  
 </body>
 </html>

@@ -191,7 +191,7 @@
                    <script type="text/javascript">window.onload = day('day');</script>
                 </p>
                 <div style="width: 300px; margin-top: 80px;border-top: 1px solid #000;">
-                <a href="<?php echo site_url('c_login'); ?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
+                <a href="<?php echo site_url('c_contact'); ?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
                 </div>
               </div>
           </div>

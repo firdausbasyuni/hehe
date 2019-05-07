@@ -196,7 +196,7 @@
                    <script type="text/javascript">window.onload = day('day');</script>
                 </p>
                 <div style="width: 300px; margin-top: 80px;border-top: 1px solid #000;">
-                <a href="<?php echo site_url('c_login');?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
+                <a href="<?php echo site_url('Landing');?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
                 </div>
               </div>
                 
@@ -213,7 +213,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://www.schofficial.com/Content/frontend/img/store/4.jpg?v=1" class="img-full" alt="First slide">
+      <img class="d-block w-100" src="https://www.schofficial.com/Content/frontend/img/store/3.jpg?v=1" class="img-full" alt="First slide">
     </div>
     <div class="carousel-item">
       <div class="mapouter"><div class="gmap_canvas"><iframe width="1300" height="800" id="gmap_canvas" src="https://maps.google.com/maps?q=sch%20buah&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"alt="Secon slide"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:800px;width:1300px;}.gmap_canvas {overflow:hidden;background:none!important;height:800px;width:1300px;}</style></div>
@@ -232,16 +232,16 @@
         -->
       </div>
       <div class="col-md-3" style="color: black; text-align: left;">
-        <h1 style="margin-top: 80px; margin-right: 30px; margin-left: 40px; font-size: 25px;">Exhibition Room 4 Surabaya</h1>
+        <h1 style="margin-top: 80px; margin-right: 30px; margin-left: 40px; font-size: 25px;">Exhibition Room 3 Makassar</h1>
         <hr style="margin-left: 40px;">
         
         <div>
           <h1 style="color: black; font-size: 17px; font-weight: bold; margin-left: 40px;">ADDRESS: </h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">Jl.Slamet no. 11 Surabaya</h1>
+          <h1 style="font-size: 12px; margin-left: 40px;">Ruby 1#2 Panakukang Mas Makassar</h1>
           <h1 style="color: black; font-size: 17px; font-weight: bold; margin-left: 40px;">OPERATION :</h1>
           <h1 style="font-size: 12px; margin-left: 40px;">10.00-22.00</h1>
           <h1 style="color: black; font-size: 17px; font-weight: bold;margin-left: 40px">PHONE :</h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">+6231.545.2209</h1>
+          <h1 style="font-size: 12px; margin-left: 40px;">+622411.420.912</h1>
           <h1 style="color: black; font-size: 17px; font-weight: bold;margin-left: 40px">EMAIL :</h1>
           <h1 style="font-size: 12px; margin-left: 40px;">store@ouvalresearch.com</h1>
         </div>

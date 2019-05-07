@@ -10,39 +10,30 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="nav.css">
 	<link rel="stylesheet" type="text/css" href="tubes.css">
-	<link rel="stylesheet" type="text/css" href="login.css">
 	<script type="text/javascript" src="nav.js"></script>
-	<script type="text/javascript">
-	    function month(id){
-	      	date = new Date;
-	      	month = date.getMonth();
-	      	months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
-	      	result = ''+months[month];
-	      	document.getElementById(id).innerHTML = result;
-	    }
-	    function datee(id){
-	      	date = new Date;
-	      	d = date.getDate();  
-	      	result = ''+d;
-	      	document.getElementById(id).innerHTML = result;
-	    }
-	    function day(id){
-	      	date = new Date;
-	      	day = date.getDay();
-	      	days = new Array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
-	      	result = ''+days[day];
-	      	document.getElementById(id).innerHTML = result;
-	    }
-      function toggleMenu() {
-        var menuBox = document.getElementById('menu-box');    
-        if(menuBox.style.display == "block") { // if is menuBox displayed, hide it
-          menuBox.style.display = "none";
-        }
-        else { // if is menuBox hidden, display it
-          menuBox.style.display = "block";
-        }
-      }
-	</script>
+	<script type="text/javascript" src="download.js"></script>
+  	<script type="text/javascript">
+    function month(id){
+      date = new Date;
+      month = date.getMonth();
+      months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+      result = ''+months[month];
+      document.getElementById(id).innerHTML = result;
+    }
+    function datee(id){
+      date = new Date;
+      d = date.getDate();  
+      result = ''+d;
+      document.getElementById(id).innerHTML = result;
+    }
+    function day(id){
+      date = new Date;
+      day = date.getDay();
+      days = new Array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
+      result = ''+days[day];
+      document.getElementById(id).innerHTML = result;
+    }
+  	</script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-left">
@@ -71,6 +62,41 @@
         </ul>
     </div>
 </nav>
+	<div class="row">
+	  	<div class="satu col-md-3">
+	  		<div class="teks">
+	  			<a href="#" style="text-decoration: none; color: #F2F2F2; text-align: left;">
+	  				<h3 style="margin-bottom: -2PX; margin-top: 80px; font-size: 21px; text-align: left; margin-left: 80px;">WALLPAPER</h3>
+	  				<span style="font-size: 12px;">VIEW NOW</span>
+	  			</a>
+	  		</div>
+	  	</div>
+	  	<div class="dua col-md-3" style="">
+	  		<div class="teks">
+	  			<a href="#" style="text-decoration: none; color: #F2F2F2;">
+	  				<h3 style="margin-bottom: -4px; margin-top: 80px; font-size: 21px;">MUSIC</h3>
+	  				<span style="font-size: 12px;">VIEW NOW</span>
+	  			</a>
+	  		</div>
+	  	</div>
+	  	<div class="tiga col-md-3">
+	  		<div class="teks">
+	  			<a href="#" style="text-decoration: none; color: #F2F2F2;">
+	  				<h3 style="margin-bottom: -4px; margin-top: 80px; font-size: 21px;">VIDEO</h3>
+	  				<span style="font-size: 12px;">VIEW NOW</span>
+	  			</a>
+	  		</div>
+	  	</div>
+	  	<div class="empat col-md-3">
+	  		<div class="teks">
+	  			<a href="#" style="text-decoration: none; color: #F2F2F2;">
+	  				<h3 style="margin-bottom: -4px; margin-top: 80px; font-size: 21px;">TRUETYPE</h3>
+	  				<span style="font-size: 12px;">VIEW NOW</span>
+	  			</a>
+	  		</div>
+	  	</div>
+	</div>
+
 <div class="modal fade left bd-example-modal-lg bg-dark col-md-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   	<div class="modal-dialog" style="height: 600px;">
     <div class="modal-content bg-dark" style="border: none; height: 656px; width: 672px; margin-left: -80px; margin-top: -28px;">
@@ -169,7 +195,6 @@
                 </li>
               </ul>
             </footer>
-
             </div>
           	<div class="media-right" style="background-color:#00FF00; margin-left: 120px; width: 480px; height: 656px; margin-top: -16px; margin-right: -16px; text-align: left;">
               <div style="margin-left: 16px;">
@@ -196,7 +221,7 @@
                    <script type="text/javascript">window.onload = day('day');</script>
                 </p>
                 <div style="width: 300px; margin-top: 80px;border-top: 1px solid #000;">
-                <a href="<?php echo site_url('c_login');?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
+                <a href="<?php echo site_url('Landing');?>" style="font-size: 32px; text-decoration: none; color: #212529; width: 400px;">LOGIN</a>
                 </div>
               </div>
                 
@@ -206,47 +231,5 @@
 	</div>
 	</div>
 </div>
-<div class="row" style="background-color: #D3D3D3; height: ">
-   
-
-        <div class="col-md-9">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://www.schofficial.com/Content/frontend/img/store/4.jpg?v=1" class="img-full" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="1300" height="800" id="gmap_canvas" src="https://maps.google.com/maps?q=sch%20buah&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"alt="Secon slide"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:800px;width:1300px;}.gmap_canvas {overflow:hidden;background:none!important;height:800px;width:1300px;}</style></div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-          <!-- <img src="https://www.schofficial.com/Content/frontend/img/store/2.jpg?v=1" class="img-full" style="height: 600px">
-        -->
-      </div>
-      <div class="col-md-3" style="color: black; text-align: left;">
-        <h1 style="margin-top: 80px; margin-right: 30px; margin-left: 40px; font-size: 25px;">Exhibition Room 4 Surabaya</h1>
-        <hr style="margin-left: 40px;">
-        
-        <div>
-          <h1 style="color: black; font-size: 17px; font-weight: bold; margin-left: 40px;">ADDRESS: </h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">Jl.Slamet no. 11 Surabaya</h1>
-          <h1 style="color: black; font-size: 17px; font-weight: bold; margin-left: 40px;">OPERATION :</h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">10.00-22.00</h1>
-          <h1 style="color: black; font-size: 17px; font-weight: bold;margin-left: 40px">PHONE :</h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">+6231.545.2209</h1>
-          <h1 style="color: black; font-size: 17px; font-weight: bold;margin-left: 40px">EMAIL :</h1>
-          <h1 style="font-size: 12px; margin-left: 40px;">store@ouvalresearch.com</h1>
-        </div>
-      </div>
-</div>
-  
 </body>
 </html>

@@ -13,34 +13,33 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="nav.css">
   <link rel="stylesheet" type="text/css" href="tubes.css">
-
   <script type="text/javascript" src="nav.js"></script>
-
+  <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript">
-      function month(id){
-          date = new Date;
-          month = date.getMonth();
-          months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
-          result = ''+months[month];
-          document.getElementById(id).innerHTML = result;
-      }
-      function datee(id){
-          date = new Date;
-          d = date.getDate();  
-          result = ''+d;
-          document.getElementById(id).innerHTML = result;
-      }
-      function day(id){
-          date = new Date;
-          day = date.getDay();
-          days = new Array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
-          result = ''+days[day];
-          document.getElementById(id).innerHTML = result;
-      }
+    function month(id){
+      date = new Date;
+      month = date.getMonth();
+      months = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+      result = ''+months[month];
+      document.getElementById(id).innerHTML = result;
+    }
+    function datee(id){
+      date = new Date;
+      d = date.getDate();  
+      result = ''+d;
+      document.getElementById(id).innerHTML = result;
+    }
+    function day(id){
+      date = new Date;
+      day = date.getDay();
+      days = new Array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
+      result = ''+days[day];
+      document.getElementById(id).innerHTML = result;
+    }
   </script>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-left">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-left">
     <a class="navbar-brand" href="<?php echo site_url('Landing');?>"><img src="https://www.schofficial.com/Content/frontend/img/logo.png" style="width: 72px; margin-bottom: 36px;"></a>
     <button class="navbar-toggler" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
         <span class="navbar-toggler-icon"></span>
@@ -66,6 +65,41 @@
         </ul>
     </div>
 </nav>
+  <div class="row">
+      <div class="satu col-md-3">
+        <div class="teks">
+          <a href="<?php echo site_url('c_male'); ?>" style="text-decoration: none; color: #F2F2F2; text-align: left;">
+            <h3 style="margin-bottom: -2PX; margin-top: 80px; font-size: 21px; text-align: left; margin-left: 80px;">SHOP MALE</h3>
+            <span style="font-size: 12px;">VIEW NOW</span>
+          </a>
+        </div>
+      </div>
+      <div class="dua col-md-3">
+        <div class="teks">
+          <a href="<?php echo site_url('c_female'); ?>" style="text-decoration: none; color: #F2F2F2;">
+            <h3 style="margin-bottom: -4px; margin-top: 80px; font-size: 21px;">SHOP FEMALE</h3>
+            <span style="font-size: 12px;">VIEW NOW</span>
+          </a>
+        </div>
+      </div>
+      <div class="tiga col-md-3">
+        <div class="teks">
+          <a href="<?php echo site_url('c_store'); ?>" style="text-decoration: none; color: #F2F2F2;">
+            <h3 style="margin-bottom: -4px; margin-top: 80px; font-size: 21px;">FIND US</h3>
+            <span style="font-size: 12px;">VIEW LOCATION</span>
+          </a>
+        </div>
+      </div>
+      <div class="empat col-md-3">
+        <div class="teks">
+          <a href="c_news" style="text-decoration: none; color: #F2F2F2;">
+            <h3 style="margin-bottom: -4px; margin-top: 80px; font-size: 21px;">EOL 2018 DEALS WINNER LIST</h3>
+            <span style="font-size: 12px;">READ THE NEWS</span>
+          </a>
+        </div>
+      </div>
+  </div>
+
 <div class="modal fade left bd-example-modal-lg bg-dark col-md-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog" style="height: 600px;">
     <div class="modal-content bg-dark" style="border: none; height: 656px; width: 672px; margin-left: -80px; margin-top: -28px;">
@@ -199,109 +233,6 @@
         </div>  
     </div>
   </div>
-  </div>
-</div>
-<div class="row" style="background-color: #D3D3D3; height: ">
-  <h1 style="margin-top: 60px; font-weight: bold; margin-left: 30px;">STORE</h1>
-  <div class="row" style="background-color: #D3D3D3; width: 1400px ">
-    
-      <div class="satu col-md-3">
-        <a href="<?php echo site_url('c_Store1');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/1.jpg?v=1" class="img-full" style="height: 196.5px">
-        </a>
-        <a href="<?php echo site_url('c_Store1');?>" style="color: black;">
-          <label>EXHIBITION ROOM #01</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store1');?>" style="font-weight: bold; color: black" >
-          MORE INFO 
-        </a>
-
-        <a href="<?php echo site_url('c_Store5');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/5.jpg?v=1" class="img-full" style="height: 196.5px; margin-top: 30px;">
-        </a>
-        <a href="<?php echo site_url('c_Store5');?>" style="color: black">
-          <label>EXHIBITION ROOM #05</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store5');?>" style="font-weight: bold; color: black">
-          MORE INFO
-        </a>
-        
-      </div>
-      <div class="dua col-md-3">
-        <a href="<?php echo site_url('c_Store2');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/2.jpg?v=1" class="img-full" style="height: 196.5px">
-        </a>
-        <a href="<?php echo site_url('c_Store2');?>" style="color: black">
-          <label>EXHIBITION ROOM #02</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store2');?>" style="font-weight: bold; color: black">
-          MORE INFO
-        </a>
-
-        <a href="<?php echo site_url('c_Store6');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/6.jpg?v=1" class="img-full" style="height: 196.5px;margin-top: 30px;">
-        </a>
-        <a href="<?php echo site_url('c_Store6');?>" style="color: black">
-          <label>EXHIBITION ROOM #06</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store6');?>" style="font-weight: bold; color: black">
-          MORE INFO
-        </a>
-
-      </div>
-      <div class="tiga col-md-3">
-        <a href="<?php echo site_url('c_Store3');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/3.jpg?v=1" class="img-full" style="height: 196.5px">
-        </a>
-        <a href="<?php echo site_url('c_Store3');?>" style="color: black">
-          <label>EXHIBITION ROOM #03</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store3');?>" style="font-weight: bold; color: black">
-          MORE INFO
-        </a>
-
-        <a href="<?php echo site_url('c_Store7');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/7.jpg?v=1" class="img-full" style="height: 196.5px;margin-top: 30px;">
-        </a>
-        <a href="<?php echo site_url('c_Store7');?>" style="color: black">
-          <label>EXHIBITION ROOM #07</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store7');?>" style="font-weight: bold; color: black">
-          MORE INFO
-        </a>
-
-      </div>
-      <div class="empat col-md-3">
-        <a href="<?php echo site_url('c_Store4');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/4.jpg?v=1" class="img-full" style="height: 196.5px">
-        </a>
-        <a href="<?php echo site_url('c_Store4');?>" style="color: black">
-          <label>EXHIBITION ROOM #04</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store4');?>" style="font-weight: bold; color: black">
-          MORE INFO
-        </a>
-
-        <a href="<?php echo site_url('c_Store8');?>">
-          <img src="https://www.schofficial.com/Content/frontend/img/store/8.jpg?v=1" class="img-full" style="height: 196.5px;margin-top: 30px;">
-        </a>
-        <a href="<?php echo site_url('c_Store8');?>" style="color: black">
-          <label>EXHIBITION ROOM #08</label>
-        </a>
-        <hr class="hr-prodect">
-        <a href="<?php echo site_url('c_Store8');?>" style="font-weight: bold; color: black">
-          MORE INFO
-        </a>
-
-      </div>
-  
   </div>
 </div>
 </body>
