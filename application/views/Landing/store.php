@@ -201,5 +201,108 @@
   </div>
   </div>
 </div>
+<div class="row" style="background-color: #D3D3D3; height: ">
+  <h1 style="margin-top: 60px; font-weight: bold; margin-left: 30px;">STORE</h1>
+  <div class="row" style="background-color: #D3D3D3; width: 1400px ">
+    
+      <div class="satu col-md-3">
+        <a href="Store1.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/1.jpg?v=1" class="img-full" style="height: 196.5px">
+        </a>
+        <a href="Store1.html" style="color: black;">
+          <label>EXHIBITION ROOM #01</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store1.html" style="font-weight: bold; color: black" >
+          MORE INFO 
+        </a>
+
+        <a href="Store5.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/5.jpg?v=1" class="img-full" style="height: 196.5px; margin-top: 30px;">
+        </a>
+        <a href="Store5.html" style="color: black">
+          <label>EXHIBITION ROOM #05</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store5.html" style="font-weight: bold; color: black">
+          MORE INFO
+        </a>
+        
+      </div>
+      <div class="dua col-md-3">
+        <a href="Store2.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/2.jpg?v=1" class="img-full" style="height: 196.5px">
+        </a>
+        <a href="Store2.html" style="color: black">
+          <label>EXHIBITION ROOM #02</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store2.html" style="font-weight: bold; color: black">
+          MORE INFO
+        </a>
+
+        <a href="Store6.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/6.jpg?v=1" class="img-full" style="height: 196.5px;margin-top: 30px;">
+        </a>
+        <a href="Store6.html" style="color: black">
+          <label>EXHIBITION ROOM #06</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store6.html" style="font-weight: bold; color: black">
+          MORE INFO
+        </a>
+
+      </div>
+      <div class="tiga col-md-3">
+        <a href="Store3.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/3.jpg?v=1" class="img-full" style="height: 196.5px">
+        </a>
+        <a href="Store3.html" style="color: black">
+          <label>EXHIBITION ROOM #03</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store3.html" style="font-weight: bold; color: black">
+          MORE INFO
+        </a>
+
+        <a href="Store7.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/7.jpg?v=1" class="img-full" style="height: 196.5px;margin-top: 30px;">
+        </a>
+        <a href="Store7.html" style="color: black">
+          <label>EXHIBITION ROOM #07</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store7.html7" style="font-weight: bold; color: black">
+          MORE INFO
+        </a>
+
+      </div>
+      <div class="empat col-md-3">
+        <a href="Store4.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/4.jpg?v=1" class="img-full" style="height: 196.5px">
+        </a>
+        <a href="Store4.html" style="color: black">
+          <label>EXHIBITION ROOM #04</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store4.html" style="font-weight: bold; color: black">
+          MORE INFO
+        </a>
+
+        <a href="Store8.html">
+          <img src="https://www.schofficial.com/Content/frontend/img/store/8.jpg?v=1" class="img-full" style="height: 196.5px;margin-top: 30px;">
+        </a>
+        <a href="Store8.html" style="color: black">
+          <label>EXHIBITION ROOM #08</label>
+        </a>
+        <hr class="hr-prodect">
+        <a href="Store8.html" style="font-weight: bold; color: black">
+          MORE INFO
+        </a>
+
+      </div>
+  
+  </div>
+</div>
 </body>
 </html>
